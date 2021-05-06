@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./build/css/style.min.css">
+    <link rel="icon" href="./build/img/" type="image/png"/>
+    <title></title>
+</head>
+<body>
+    <header>
+        <div class="bg-darker">
+            <div class="main-menu">
+                <div class="container">
+                    <ul>
+                        <li class="menu-show-hide menu-show-hide-hide"><a href="./index.html"></a></li>
+                        <li><a href="">Телефоны</a></li>
+                        <li><a href="">Планшеты</a></li>
+                        <li><a href="">Ноутбуки</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Скидки</a></li>
+                        <li><a href="">Отзывы</a></li>
+                        <li><a href="">Контакты</a></li>
+                        <li class="menu-show-hide menu-show-hide-hide"><a href="tel:+375(33)309-95-42">+375(33)309-95-42</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bg-header">
+                <div class="container">
+                    <div class="number-logo"><div class="logo"></div><a href="tel:+375(33)309-95-42" class="header-number">+375(33)309-95-42</a></div>
+                    <h1>Сервисный центр в Минске</h1>
+                    <a class="after-h1">Заказать ремонт со скидкой 20%</a>
+                    <form class="recalling" method="POST" enctype="multipart/form-data" action="./backend/mail.php">
+                        <label style="display: none;">Вас зовут:</label>
+                        <input class="number" placeholder="Ваш номер телефона" name="clientName" type="text">
+                        <label style="display: none;">Ваш номер телефона:</label>
+                        <input style="display: none;" name="clientPhone" type="number">
+                        <input class="submit" type="submit" value="Заказать звонок">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="wr-why-we">
+        <div class="container">
+            <h2>Почему мы?</h2>
+            <div class="why-we-greed">
+                <div class="why-we-element"><h4>Выезжаем</h4><p>Не нужно никуда ехать, что вы?</br>Мы сами к вам приедем!</p></div>
+                <div class="why-we-element"><h4>Ремонтируем</h4><p>15 минут примерно рядышком постоите рядышком и все - готово.</p></div>
+                <div class="why-we-element"><h4>Довольны как слон</h4><p>Пока вы радуетесь сделанному устройству, мы вам еще гарантию вручим</p></div>
+            </div>
+        </div>
+    </section>
+    <section class="rw-repearing">
+        <div class="container">
+            <h2>Сервисный центр выполняет ремонт</h2>
+            <div class="repear-devices-grid">
+                <a class="repear-devices-element"><p>Телефоны</p></a>
+                <a class="repear-devices-element"><p>Планшеты</p></a>
+                <a class="repear-devices-element"><p>Ноутбуки</p></a>
+            </div>
+        </div>
+    </section>
+    <section class="wr-comfort">
+        <div class="container">
+            <h2>Удобство и надежность</h2>
+            <div class="comford-grid">
+                <div class="comfort-grid-element"><p>Используем запчасти класса оригинал </p></div>
+                <div class="comfort-grid-element"><p>Выезжаем по Минску</p></div>
+                <div class="comfort-grid-element"><p>Бесплатный выезд курьера</p></div>
+            </div>
+        </div>
+    </section>
+    <section class="wr-sale">
+        <div class="container">
+            <div class="sale-container">
+                <h3>Новым клиентам</br>скидка 25%</h3>
+                <p class="sale-p">Перезвоним через 2 минуты</p>
+                <form style="padding: 0;" class="recalling" method="POST" enctype="multipart/form-data" action="./backend/mail.php">
+                    <label style="display: none;">Вас зовут:</label>
+                    <input class="number" placeholder="Ваш номер телефона" name="clientName" type="text">
+                    <label style="display: none;">Ваш номер телефона:</label>
+                    <input style="display: none;" name="clientPhone" type="number">
+                    <input style="background: black; color: white;" class="submit" type="submit" value="Заказать звонок">
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="questions">
+        <img src="./build/img/animation-man.png" alt="">
+        <div class="container">
+            <div class="questions-flex">
+                <h2>Остались вопросы?</h2>
+                <h2>Звоните <a href="tel:+375(33)309-95-42">+375(33)309-95-42</a></h2>
+                <div class="question-span">
+                    <span>Выезжаем по Минску</span>Ремонтируем за 15 минут<span></span>Со скидкой 20%<span></span>
+                </div>
+                <form style="padding: 0 0 40px;" class="recalling" method="POST" enctype="multipart/form-data" action="./backend/mail.php">
+                    <label style="display: none;">Вас зовут:</label>
+                    <input class="number" placeholder="Ваш номер телефона" name="clientName" type="text">
+                    <label style="display: none;">Ваш номер телефона:</label>
+                    <input style="display: none;" name="clientPhone" type="number">
+                    <input style="background: black; color: white;" class="submit" type="submit" value="Заказать звонок">
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="./build/js/main.min.js"></script>
+</body>
+</html>
