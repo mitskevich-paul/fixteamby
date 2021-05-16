@@ -9,36 +9,34 @@
     <title></title>
 </head>
 <body>
-    <header>
-        <div class="bg-darker">
-            <div class="main-menu-hide">
-                <div class="container">
-                    <ul>
-                        <li class="menu-show-hide"><a href="./index.html"></a></li>
-                        <li><a href="./phone.html">Телефоны</a></li>
-                        <li><a href="./tablet.html">Планшеты</a></li>
-                        <li><a href="./laptop.html">Ноутбуки</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="./sale.html">Скидки</a></li>
-                        <li><a href="./reviews.html">Отзывы</a></li>
-                        <li><a href="./contact.html">Контакты</a></li>
-                        <li class="menu-show-hide"><a href="tel:+375(33)309-95-42">+375(33)309-95-42</a></li>
-                    </ul>
-                </div>
+    <header class="header-tablet">
+        <div class="main-menu-hide">
+            <div class="container">
+                <ul>
+                    <li class="menu-show-hide"><a href="./index.html"></a></li>
+                    <li><a href="./phone.html">Телефоны</a></li>
+                    <li><a href="./tablet.html">Планшеты</a></li>
+                    <li><a href="./laptop.html">Ноутбуки</a></li>
+                </ul>
+                <ul>
+                    <li><a href="./sale.html">Скидки</a></li>
+                    <li><a href="./reviews.html">Отзывы</a></li>
+                    <li><a href="./contact.html">Контакты</a></li>
+                    <li class="menu-show-hide"><a href="tel:+375(33)309-95-42">+375(33)309-95-42</a></li>
+                </ul>
             </div>
-            <div class="bg-header">
-                <div class="container">
-                    <div class="number-logo"><p class="logo"></p><a href="tel:+375(33)309-95-42" class="header-number">+375(33)309-95-42</a></div>
-                    <h1>Ремонт планшетов</h1>
-                    <p class="after-h1">В Минске за 15 минут со скидкой 20%</p>
-                    <form class="recalling" method="POST" enctype="multipart/form-data" action="./backend/mail.php">
-                        <input class="number" placeholder="Ваш номер телефона" name="clientName" type="text">
-                        <input name="clientTask" value="Скидка 20%" style="display: none;"></input>
-                        <input style="display: none;" name="clientPhone" type="number">
-                        <input class="submit" type="submit" value="Заказать звонок">
-                    </form>
-                </div>
+        </div>
+        <div class="bg-header">
+            <div class="container">
+                <div class="number-logo"><p class="logo"></p><a href="tel:+375(33)309-95-42" class="header-number">+375(33)309-95-42</a></div>
+                <h1>Ремонт планшетов</h1>
+                <p class="after-h1">В Минске за 15 минут со скидкой 20%</p>
+                <form class="recalling" method="POST" enctype="multipart/form-data" action="./backend/mail.php">
+                    <input class="number" placeholder="Ваш номер телефона" name="clientName" type="text">
+                    <input name="clientTask" value="Скидка 20%" style="display: none;"></input>
+                    <input style="display: none;" name="clientPhone" type="number">
+                    <input class="submit" type="submit" value="Заказать звонок">
+                </form>
             </div>
         </div>
     </header>
