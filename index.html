@@ -34,8 +34,6 @@
                     <p class="after-h1">Выезжаем к вам и ремонтируем со скидкой 20%</p>
                     <form class="recalling" method="POST" enctype="multipart/form-data" action="./backend/mail.php">
                         <input class="number" placeholder="Ваш номер телефона" name="clientName" type="text">
-                        <input name="clientTask" value="Скидка 20%" style="display: none;"></input>
-                        <input style="display: none;" name="clientPhone" type="number">
                         <input class="submit" type="submit" value="Заказать звонок">
                     </form>
                 </div>
@@ -46,9 +44,10 @@
         <div class="container">
             <h2>Почему мы?</h2>
             <div class="why-we-greed">
-                <div class="why-we-element"><h4>Выезжаем</h4><p>Не нужно никуда ехать, что вы?</br>Мы сами к вам приедем!</p></div>
-                <div class="why-we-element"><h4>Ремонтируем</h4><p>15 минут примерно рядышком постоите рядышком и все - готово.</p></div>
-                <div class="why-we-element"><h4>Довольны как слон</h4><p>Пока вы радуетесь сделанному устройству, мы вам еще гарантию вручим</p></div>
+                <div class="why-we-element"><h4>Выезжаем</h4><p>Бесплатный выезд курьера</p></div>
+                <div class="why-we-element"><h4>Дарим</h4><p>Подарок каждому клиенту</p></div>
+                <div class="why-we-element"><h4>Гарантия</h4><p>Даем гарантию до 24 месяцев</p></div>
+                <div class="why-we-element"><h4>Оперативность</h4><p>87% ремонтов осущетвляется в тот же день</p></div>
             </div>
         </div>
     </section>
@@ -78,10 +77,7 @@
                 <h3>Новым клиентам</br>скидка 20%</h3>
                 <p class="sale-p">Перезвоним через 2 минуты</p>
                 <form style="padding: 0;" class="recalling-two" method="POST" enctype="multipart/form-data" action="./backend/mail.php">
-                    <label style="display: none;">Вас зовут:</label>
                     <input class="number" placeholder="Ваш номер телефона" name="clientName" type="text">
-                    <label style="display: none;">Ваш номер телефона:</label>
-                    <input style="display: none;" name="clientPhone" type="number">
                     <input style="background: black; color: white;" class="submit" type="submit" value="Заказать звонок">
                 </form>
             </div>
@@ -179,10 +175,7 @@
                     <span>Выезжаем по Минску</span><span>Ремонтируем за 15 минут</span><span>Со скидкой 20%</span>
                 </div>
                 <form style="padding: 0 0 40px;" class="recalling-two" method="POST" enctype="multipart/form-data" action="./backend/mail.php">
-                    <label style="display: none;">Вас зовут:</label>
                     <input class="number" placeholder="Ваш номер телефона" name="clientName" type="text">
-                    <label style="display: none;">Ваш номер телефона:</label>
-                    <input style="display: none;" name="clientPhone" type="number">
                     <input style="background: black; color: white;" class="submit" type="submit" value="Заказать звонок">
                 </form>
             </div>

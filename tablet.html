@@ -33,8 +33,6 @@
                 <p class="after-h1">В Минске за 15 минут со скидкой 20%</p>
                 <form class="recalling" method="POST" enctype="multipart/form-data" action="./backend/mail.php">
                     <input class="number" placeholder="Ваш номер телефона" name="clientName" type="text">
-                    <input name="clientTask" value="Скидка 20%" style="display: none;"></input>
-                    <input style="display: none;" name="clientPhone" type="number">
                     <input class="submit" type="submit" value="Заказать звонок">
                 </form>
             </div>
@@ -61,9 +59,10 @@
         <div class="container">
             <h2>Почему мы?</h2>
             <div class="why-we-greed">
-                <div class="why-we-element"><h4>Выезжаем</h4><p>Не нужно никуда ехать, что вы?</br>Мы сами к вам приедем!</p></div>
-                <div class="why-we-element"><h4>Ремонтируем</h4><p>15 минут примерно рядышком постоите рядышком и все - готово.</p></div>
-                <div class="why-we-element"><h4>Довольны как слон</h4><p>Пока вы радуетесь сделанному устройству, мы вам еще гарантию вручим</p></div>
+                <div class="why-we-element"><h4>Выезжаем</h4><p>Бесплатный выезд курьера</p></div>
+                <div class="why-we-element"><h4>Дарим</h4><p>Подарок каждому клиенту</p></div>
+                <div class="why-we-element"><h4>Гарантия</h4><p>Даем гарантию до 24 месяцев</p></div>
+                <div class="why-we-element"><h4>Оперативность</h4><p>87% ремонтов осущетвляется в тот же день</p></div>
             </div>
         </div>
     </section>
@@ -83,10 +82,7 @@
                 <h3>Новым клиентам</br>скидка 20%</h3>
                 <p class="sale-p">Перезвоним через 2 минуты</p>
                 <form style="padding: 0;" class="recalling-two" method="POST" enctype="multipart/form-data" action="./backend/mail.php">
-                    <label style="display: none;">Вас зовут:</label>
                     <input class="number" placeholder="Ваш номер телефона" name="clientName" type="text">
-                    <label style="display: none;">Ваш номер телефона:</label>
-                    <input style="display: none;" name="clientPhone" type="number">
                     <input style="background: black; color: white;" class="submit" type="submit" value="Заказать звонок">
                 </form>
             </div>
@@ -102,167 +98,76 @@
             <div class="reviews-slider">
                 <div class="reviews-container">
                     <div class="reviews-element">
-                        <h4>Наталья Логинова</h4>
-                        <p>Очень довольны мастером. Ремонт сделан качественно профессионально быстро, Спасибо!!! Просим поощрить мастера за добросовестный труд.</p>
-                        <div class="raiting">
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                        </div>
+                        <img src="./build/img/vacheslav.png" alt="">
+                        <h4>Вячеслав Кириллов</h4>
+                        <p>"Очень рад - быстрое и качественное обслуживание: пунктуальность, профессеонализм в диагностике; качественный ремонт и консультация по эксплуатации; сравнительно недорогая цена и гарантия. P.S. Отдельная благодарность мастеру Владимиру!!"</p>
                     </div>
                 </div>
                 <div class="reviews-container">
                     <div class="reviews-element">
-                        <h4>Галина Шутович</h4>
-                        <p>Очень довольна работой мастера. Работа сделана профессинально, качественно, быстро, "с душой". Дал много полезных советов. Большое спасибо!</p>
-                        <div class="raiting">
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                        </div>
+                        <img src="./build/img/darya.png" alt="">
+                        <h4>Darya Khrolenko</h4>
+                        <p>"Ремонтный мастер Владимир просто золотые руки. качественный ремонт, очень быстро. Спасибо ему огромное!"</p>
                     </div>
                 </div>
                 <div class="reviews-container">
                     <div class="reviews-element">
-                        <h4>Константин Лобанов</h4>
-                        <p>Мы остались очень довольны работой мастера Владимира. ремонт телефона произведен качественно и профессионально. Благодарим за хороший сервис</p>
-                        <div class="raiting">
-                            <svg style="fill: white;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                        </div>
+                        <img src="./build/img/olga.png" alt="">
+                        <h4>Ольга Митина</h4>
+                        <p>"Спасибо, все сделали очень быстро и качественно"</p>
                     </div>
                 </div>
                 <div class="reviews-container">
                     <div class="reviews-element">
-                        <h4>Михаил Нахаев</h4>
-                        <p>Принесли на ремонт телефон Xiaomi redmi note 8 с разбитым экраном. Ремонт был выполнен в тотже день! Буду обращаться в дальнейшем.</p>
-                        <div class="raiting">
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                        </div>
+                        <img src="./build/img/no-image.png" alt="">
+                        <h4>Елена</h4>
+                        <p>"Хочу выразить огромную благодарность специалисту (Владимир), самый настоящий профи своего дела, вежливый, все объяснит и покажет. Менял экран все показал и рассказал, побольше бы таких специалистов."</p>
                     </div>
                 </div>
                 <div class="reviews-container">
                     <div class="reviews-element">
-                        <h4>Виктор Павлов</h4>
-                        <p>В данную мастерскую пришел по совету своего колеги. И очень рад Во первых вежливая консультация по телефону затем вежливое сопровождение ремонта. ремонт сделали за 3 часа. Все супер спасибо огромное.</p>
-                        <div class="raiting">
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                        </div>
+                        <img src="./build/img/albina.png" alt="">
+                        <h4>Альбина Кох</h4>
+                        <p>"Очень довольна сервисом, приехали на работу, поменяли стекло очень быстро и по сравнению с ценами на других сайтах - очень дешево"</p>
                     </div>
                 </div>
                 <div class="reviews-container">
                     <div class="reviews-element">
-                        <h4>Grigory Moskalyov</h4>
-                        <p>Была проблема связанная с выключением телефона и пропаданием сети. Приехали быстро, помогли. Огромное им спасибо. Буду обращаться в дальнейшем.</p>
-                        <div class="raiting">
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                        </div>
+                        <img src="./build/img/rassul.png" alt="">
+                        <h4>Rassul Efrimov</h4>
+                        <p>"Оперативно, качественно, доступно! Спасибо мастеру Владимиру за лайфхак по долговечности аккумулятора!"</p>
                     </div>
                 </div>
                 <div class="reviews-container">
                     <div class="reviews-element">
-                        <h4>Николай Янтиков</h4>
-                        <p>Обратился в компанию для ремонта планшета, нужно было заменить разъем зарядного и батарею, на следующий день.</p>
-                        <div class="raiting">
-                            <svg style="fill: white;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                            <svg style="fill: gold;" class="rait-star">
-                                <polygon points="70,5 90,41 136,48 103,80 111,126 70,105 29,126 36,80 5,48 48,41"/>
-                            </svg>
-                        </div>
+                        <img src="./build/img/eugenia.png" alt="">
+                        <h4>Eugenia Sarapova</h4>
+                        <p>"Классно все быстро и качественно"</p>
+                    </div>
+                </div>
+                <div class="reviews-container">
+                    <div class="reviews-element">
+                        <img src="./build/img/no-image.png" alt="">
+                        <h4>Жанна</h4>
+                        <p>"Мастер приехал оперативно. Быстро и четко заменил дисплей на повидавшей на своем веку шестерке. Очень благодарна! Даже не предполагала, что пол-дня без тулуфона это такой стресс!!!"</p>
+                    </div>
+                </div>
+                <div class="reviews-container">
+                    <div class="reviews-element">
+                        <img src="./build/img/olga-sinicina.png" alt="">
+                        <h4>Ольга Синицына</h4>
+                        <p>"Огромное спасибо гарантийному мастеру, за неформальное отношение к работе. Именно он, потратив время нашел причину выхода из строя АКБ, а не просто заменил ее в очередной раз. настоящий мастер! Спасибо!"</p>
+                    </div>
+                </div>
+                <div class="reviews-container">
+                    <div class="reviews-element">
+                        <img src="./build/img/evgeniy.png" alt="">
+                        <h4>Евгений Евгеньевич</h4>
+                        <p>"Полная замена на iPhone 6plus экрана. Владимиру спасибо! рекомендую сервис."</p>
                     </div>
                 </div>
             </div>
-            <button class="make-review-own">Оставить отзыв</button>
+            <button style="display: none;" class="make-review-own">Оставить отзыв</button>
         </div>
     </section>
     <section class="questions">
@@ -275,10 +180,7 @@
                     <span>Выезжаем по Минску</span><span>Ремонтируем за 15 минут</span><span>Со скидкой 20%</span>
                 </div>
                 <form style="padding: 0 0 40px;" class="recalling-two" method="POST" enctype="multipart/form-data" action="./backend/mail.php">
-                    <label style="display: none;">Вас зовут:</label>
                     <input class="number" placeholder="Ваш номер телефона" name="clientName" type="text">
-                    <label style="display: none;">Ваш номер телефона:</label>
-                    <input style="display: none;" name="clientPhone" type="number">
                     <input style="background: black; color: white;" class="submit" type="submit" value="Заказать звонок">
                 </form>
             </div>
